@@ -1,0 +1,77 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.child-2{
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    max-width: 1400px;
+}
+
+.flex-parent{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.brand{
+    margin-right: 1rem;
+}
+
+
+.child-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
+    padding-right: 0.7rem;
+}
+@media screen and (min-width:750px){
+.container{
+    max-width: 1400px;
+}
+
+.flex-parent{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.brand{
+    margin-right: 5rem;
+}
+.child-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.4rem;
+  padding-right: 2.5rem;
+}
+
+.child-2{
+    display: flex;
+    align-items: center;
+}
+
+}
